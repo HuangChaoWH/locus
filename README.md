@@ -8,13 +8,13 @@ Locus is a debugging module which allows you to execute commands at runtime via 
 ## Installing
 
 ```bash
-npm install locus --save-dev
+npm install @huangchaowh/locus --save-dev
 ```
 
 ## Using
 
 ```javascript
-require('locus');
+require('@huangchaowh/locus');
 
 var myVar = 123;
 var myObj = {
@@ -29,7 +29,7 @@ function makeSomething() {
   eval(locus);
 
   // another option
-  eval(require('locus'))
+  eval(require('@huangchaowh/locus'))
 
   return some;
 }
